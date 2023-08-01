@@ -55,7 +55,7 @@ public class MelodyMain {
 				Melody other = new Melody(read(new Scanner(file)));
 				melody.append(other);
 			} else if (!command.equalsIgnoreCase("quit")) {
-				System.out.println("Invalid command. Please try again.");
+				System.out.println("Invalid command. Please try again!");
 				intro();
 			}		
 		}
